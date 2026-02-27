@@ -4311,6 +4311,7 @@ const themeIcon = computed(() =>
 const currentLanguage = computed<SupportedLocale>(() => getLanguage());
 const languageOptions = computed(() => [
   { code: 'en', label: t('language.english') },
+  { code: 'tr', label: t('language.turkish') },
   { code: 'fr', label: t('language.french') },
   { code: 'zh', label: t('language.chinese') },
 ]);
